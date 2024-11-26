@@ -1,12 +1,8 @@
-- 👋 Hi, I’m @Prajwalvip
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-Prajwalvip/Prajwalvip is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+import time 
+while True:
+    if time.asctime == "Bad Time":
+        print("Your Bad Time is going ")
+    elif time.asctime == "Good Time":
+        print("Your good time started ")
+    else:
+        print("Your nothing started")
